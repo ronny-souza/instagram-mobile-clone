@@ -1,0 +1,107 @@
+/* default */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html, body {
+    overflow: hidden;
+    background-color: #FAFAFA;
+    color: #3f3f3f;
+    font-family: 'Rubik', sans-serif;
+}
+i {
+    font-size: 28px;
+    color: #262626;
+}
+a:visited {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+.border-bottom {
+    border-bottom: 1px solid #DBDBDB;
+}
+.border{
+    color: #DBDBDB;
+    margin-bottom: 10px;
+}
+.flex-center-spc-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-center-spc-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* navbar */
+.navbar .head {
+    margin: 15px 15px 5px 15px;
+}
+.navbar .logo a .logo-img{
+    width: 150px;
+}
+.navbar .head .inbox {
+    margin-top: -10px;
+}
+
+/* publication */
+.publi-header {
+    margin: 15px;
+    margin-bottom: 2%;
+}
+.publi-header .user{
+    display: flex;
+    align-items: center;
+}
+.mini-profile-pic{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.user a {
+    font-weight: 600;
+    font-size: 18px;
+}
+.published-picture img {
+    width: 100%;
+}
+div.action-buttons div{
+    width: 40%;
+    margin: 10px 0px 12px 0px;
+}
+i.lg {
+    font-size: 33px;
+}
+i.fa-ellipsis-v {
+    font-size: 20px;
+}
+
+/* publi footer */
+.publi-footer {
+    margin: 15px;
+}
+.publi-footer p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.publi-footer div {
+    margin-top: 10px;
+    display: flex;
+}
+.publi-footer div a {
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.publi-footer div p {
+    font-weight: 400;
+    font-size: 16px;
+}
+.publi-footer div p a.hashtag {
+    font-size: 16px;
+    color: #4545ff;
+}
